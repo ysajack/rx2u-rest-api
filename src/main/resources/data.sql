@@ -1,5 +1,5 @@
-INSERT INTO `Customer` (`customer_phone`, `last`, `first`, `dob`, `address`, `pharmacy`, `username`, `password`) VALUES
-('222-444-6688', 'Ysa', 'Jack', '2017-11-15', '11 Orange Ave, Westminster, CA 92684', '22 Apple Ave, Garden Grove, CA 92842', '', NULL);
+INSERT INTO `Customer` (`customer_phone`, `last`, `first`, `dob`, `address`, `pharmacy`, `rx`) VALUES
+('222-444-6688', 'Ysa', 'Jack', '2017-11-15', '11 Orange Ave, Westminster, CA 92684', '22 Apple Ave, Garden Grove, CA 92842', 'Undisclosed');
 
 INSERT INTO `Message` (`status`, `message`) VALUES
 ('New', 'With Pharmacy'),

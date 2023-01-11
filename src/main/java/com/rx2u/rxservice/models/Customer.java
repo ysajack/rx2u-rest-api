@@ -20,6 +20,4 @@ public class Customer {
     String address;
     String pharmacy;
     String rx;
-    String username;
-    String password;
 }
